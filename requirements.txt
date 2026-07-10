@@ -1,0 +1,18 @@
+streamlit>=1.38
+SQLAlchemy>=2.0
+pydantic>=2.7
+python-dotenv>=1.0
+pandas>=2.2
+pytest>=8.0
+ruff>=0.6
+black>=24.0
+anthropic>=0.40
+pymupdf>=1.24
+python-docx>=1.1
+scikit-learn>=1.5
+numpy>=1.26
+Jinja2>=3.1
+
+# 선택 기능: PDF 내보내기 (환경 의존성 있음 - README의 "PDF 내보내기 제한사항" 참고)
+# Windows에서는 GTK3 런타임 설치가 추가로 필요할 수 있습니다.
+# weasyprint>=62
